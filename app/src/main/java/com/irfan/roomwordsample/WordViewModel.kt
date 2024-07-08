@@ -19,7 +19,7 @@ class WordViewModel(private val repository: WordRepository) : ViewModel() {
 }
 
 
-class WordViewModelFacrtory(private val respository: WordRepository) : ViewModelProvider.Factory {
+class WordViewModelFactory(private val respository: WordRepository) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(WordViewModel::class.java)) {
             @Suppress("UNCHECKED_CAST")
