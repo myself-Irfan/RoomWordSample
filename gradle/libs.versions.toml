@@ -7,7 +7,7 @@ coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-kotlin = "1.9.0"
+kotlin = "1.9.10"
 kotlinStdlibJdk7 = "1.9.20"
 kotlinxCoroutinesAndroid = "1.7.3"
 kotlinxCoroutinesCore = "1.7.3"
@@ -16,7 +16,7 @@ activityCompose = "1.9.0"
 composeBom = "2024.06.00"
 material = "1.12.0"
 roomTesting = "2.6.1"
-ksp = "1.9.0-1.0.11"
+ksp = "1.9.10-1.0.13"
 
 [libraries]
 androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
