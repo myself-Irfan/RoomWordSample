@@ -8,8 +8,10 @@ import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.launch
 
+
 @Database(entities = [Word::class], version = 1, exportSchema = false)
 abstract class WordRoomDatabase : RoomDatabase() {
+    // sets up WordRoomDatabase as a Room db with a single table defined by the entity Word
 
     abstract fun wordDao(): WordDao
 
